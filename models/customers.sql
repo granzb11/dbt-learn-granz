@@ -1,8 +1,8 @@
---{{
---  config(
---    materialized='view'
---  )
---}}
+{{
+  config(
+    materialized='view'
+  )
+}}
 
 with customers as (
 

@@ -9,8 +9,6 @@ config-version: 2 # you must be using dbt v0.17.0 for this to work
 models:
   jaffle_shop:
     +materialized: table
-    example:
-      +materialized: view
 
 
 # This setting configures which "profile" dbt uses for this project.
